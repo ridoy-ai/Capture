@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/camera_capture_button"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="8dp"
+        android:background="@drawable/cam_capture_btn_background"
+        android:elevation="2dp" />
+
+    <androidx.camera.view.PreviewView
+        android:id="@+id/viewFinder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!--    <FrameLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:background="@drawable/cam_capture_transparent">-->
+
+    <!--&lt;!&ndash;        <LinearLayout&ndash;&gt;-->
+    <!--&lt;!&ndash;            android:layout_width="400dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;            android:layout_height="150dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;            android:background="#1affffff">&ndash;&gt;-->
+
+    <!--&lt;!&ndash;        </LinearLayout>&ndash;&gt;-->
+
+    <!--    </FrameLayout>-->
+    <!-- use the view to get the viewport -->
+    <com.app.camerarectsample.Viewport
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".5"
+        android:background="#7f000000" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:text="Position license plate within frame"
+            android:textColor="@android:color/white">
+
+        </TextView>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/btnFlash"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_flash_off">
+
+    </ImageButton>
+</RelativeLayout>
