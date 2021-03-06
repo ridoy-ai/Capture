@@ -2,9 +2,8 @@
 
 A camera tool to capture image and save them in internal storage. Used CameraX api, auto focus, pinch zoom, flash added as additional features.
 
-![Screenshot_2021-01-01-18-18-34-208_com app camerarectsample 1](https://user-images.githubusercontent.com/45299298/103443706-266b3c00-4c62-11eb-87f8-6c07a8caed8e.jpg)
+![Screenshot_20210307-030810_Capture](https://user-images.githubusercontent.com/37579321/110220928-2225fe00-7ef3-11eb-8c0c-f95ac9fc5769.jpg)
 
-
-![Screenshot_2021-01-01-18-18-42-374_com app camerarectsample 1](https://user-images.githubusercontent.com/45299298/103443732-603c4280-4c62-11eb-9134-71056f89f6eb.jpg)
+![Screenshot_20210307-030902_Capture](https://user-images.githubusercontent.com/37579321/110220937-2c47fc80-7ef3-11eb-9705-427d0e1a28d0.jpg)
 
 
